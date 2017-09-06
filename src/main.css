@@ -1,0 +1,57 @@
+.searchBar{
+    margin-top: 15px;
+    width: 60%;
+    height: 25px;
+    margin-left: 20%;
+    display:inline;
+}
+
+.pokemonList{
+    display: inline-flex;
+    margin-top: 40px;
+    margin-left:50px;
+
+}
+
+.pokemon{
+    width: 300px;
+    height: 470px;
+    float: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    transition: box-shadow .3s;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: yellow;
+    border-bottom: 7px dotted #000;
+    box-shadow: inset 0 -3px 0 0 #000, 0 3px 0 0 #000;
+    border-top: 7px dotted #000;
+}
+.pokemon h1{
+    text-transform: uppercase;
+    color:red ;
+    text-align: center;
+    font-family: 'Barrio', cursive;
+    font-size: 40px;
+}
+.pokemon h2{
+    text-transform: capitalize;
+    font-family: 'Kumar One', cursive;
+    font-size: 23px;
+    text-align: center;
+    color: black;
+
+}
+
+
+.pokemon h5{
+    font-transform:"capitalize";
+    font-size:15px;
+    font-family: 'Metamorphous', cursive;
+    text-align: center;
+    color: cadetblue;
+}
+
+.carouselImg{
+    margin-left: 60px;
+}
